@@ -26,23 +26,6 @@
         }
 
     </style>
-    <script type="text/javascript">
-            // declare time zone formatting
-        let options = {
-            hour: 'numeric',
-            minute: 'numeric',
-            second: 'numeric',
-            },
-        formatter = new Intl.DateTimeFormat([], options);
-
-        // set time
-        setInterval(
-            () => {
-                document.querySelector("#time").innerText = formatter.format(new Date());
-            }
-        , 1000)
-
-    </script>
 </head>
 <body>
     <b class="name">Jay Lee</b>
@@ -51,18 +34,8 @@
     <br>
     <br>
 
-    <!-- <img src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=https://handshake.umn.edu" alt="QR code" width="300"> -->
-    <img src="image.jpeg" alt="image" width="300">
+    <img src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=https://handshake.umn.edu" alt="QR code to my handshake" width="300">
     <br>
-    <br>
-
-    <span id="timezone">
-        <i>
-            TIME IN MINNEAPOLIS - 
-            <span id="time"></span>
-            <a href="https://24timezones.com/time-zone/mt"></a>
-        </i>
-    </span>
     <br>
     <br>
 
