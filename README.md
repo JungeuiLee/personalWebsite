@@ -1,4 +1,3 @@
-![Screenshot](RandomWalk.png)
 # Personal Portfolio Website
 
 ## Overview
